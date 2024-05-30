@@ -1,0 +1,86 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+ }
+ /* Set the background color of the entire page to white */
+ body {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+ }
+ 
+ 
+ /* Style for the heading container */
+ .heading-container {
+    background-color: rgb(110, 166, 110); /* Green background for the container */
+    padding: 20px; /* Padding inside the container */
+    color: white; /* White text color for the heading */
+    text-align: center; /* Center the heading text */
+    margin: 20px; /* Add some margin around the container */
+ }
+ 
+ 
+ .hidden-element {
+    visibility: hidden; /* Hide the dash but keep its layout */
+    /* Alternatively, you can use display: none; to completely remove it from the layout */
+ }
+ 
+ 
+ .navigate-button {
+    background-color: rgb(110, 166, 110);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0; /* Reset margin to avoid additional spacing */
+ }
+ 
+ 
+ 
+ 
+ .heading-container2 {
+    background-color: rgb(110, 166, 110); /* Green background for the container */
+    padding: 5px; /* Padding inside the container */
+    color: white; /* White text color for the heading */
+    text-align: center; /* Center the heading text */
+    margin: 20px; /* Add some margin around the container */
+ }
+ /* Button styles */
+ .button-link {
+    text-decoration: none;
+ }
+ 
+ 
+ .navigate-button {
+    background-color: rgb(110, 166, 110);
+    color: white;
+    padding: 10px 20px;
+    border: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+ }
+ 
+ 
+ .navigate-button:first-of-type {
+    margin-top: 20px;
+ }
+ 
+ 
+ 
+ 
+ .navigate-button:hover {
+    background-color: rgb(110, 166, 110);
+ }
+ .additional-info h2 {
+    font-size: 1.5em; /* Example font size */
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.button-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure space between buttons and additional info */
+}
+.additional-info p {
+    margin: 5px 0; /* Add some vertical space between paragraphs */
+}
